@@ -43,10 +43,12 @@
 - Подготовить базу данных clickhouse
     - Создать базу 
     - Создать таблицы скриптами из папки [sql_scripts](/sql_scripts)
-- Переименовать [docker-compose.yaml.example](/docker-compose.yaml.example) в **docker-compose.yaml**, и [techJournal.env.example](/techJournal.env.example) в **techJournal.env**  
+- Переименовать [docker-compose.yaml.example](/docker-compose.yaml.example) в **docker-compose.yaml**, 
+- Переименовать [techJournal.env.example](/techJournal.env.example) в **techJournal.env**  
 - Отредактировать файл techJournal.env
     - указать необходимые события которые вы планируете хранить
     - Задать параметры авторизации в Clickhouse
+
 - В файле [docker-compose.yaml](/docker-compose.yaml.example) указать в Volume параметры подключения к папке с логами.   
 - docker-compose up -d    
 
@@ -59,6 +61,9 @@
 
 ---
 
-## Лицензия
+## Лега
+basename =  test_12_18
 
+
+## Лицензия
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
